@@ -228,6 +228,92 @@ ul li {
 
 
 /* section3 start */
+.proqramma {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.proqramma h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    margin-bottom: 20px !important;
+}
+
+.proqramma .boxes {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proqramma .boxes .box {
+    margin-bottom: 25px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 0px #00000040;
+}
+.proqramma .p{
+    height: 50px;
+    margin-left: 5px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proqramma .end {
+    box-shadow: none !important;
+}
+
+.proqramma .boxes .box img {
+    width: 350px;
+    height: 120px;
+}
+
+.proqramma .box h1 {
+    margin: 0px ;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+.proqramma .boxtext {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proqramma .boxtext1 h1{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0px !important;
+}
+.proqramma .boxtext1 p{
+    margin-left: 15px;
+}
+.proqramma .boxtext1 .p2{
+    margin-top: 4px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.proqramma .boxtext p {
+    margin: 0% !important;
+    padding: 0px !important;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
 
 /* section3 end */
 
@@ -235,7 +321,205 @@ ul li {
 
 
 /* section4 start */
+.kurs {
+    width: 100%;
+    margin-top: 60px;
+    background: #EFEFEF;
+    padding: 50px 0px;
+}
 
+.kurs .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.kurs .boxes {
+    margin-top: 20px;
+    background-color: white;
+    width: 700px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 0px #00000040;
+    padding: 2% 4%;
+
+}
+
+.kurs h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    margin: 30px 0px !important;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
+
+.kurs .box p {
+    width: 100%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.kurs .author {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.kurs .author h4 {
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    
+}
+.kurs .authortext{
+    margin-left: 20px;
+}
+.kurs .authortext img{
+    margin-top: 15px;
+}
+
+.footer1 {
+    background-color: #9DC9C8;
+    width: 100%;
+}
+
+.fotter12 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.nacalokursa {
+    font-family: var(--robotoSlab);
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 23px;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 0em;
+
+
+}
+
+.stoimost {
+    font-family: var(--roboto);
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.rubl {
+    font-family: var(--roboto);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 81px;
+
+}
+
+.footer1dflexcontainer {
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer1dflex {
+    margin-bottom: 5px;
+    width: 40%;
+}
+
+.fotter1dflextitle {
+    font-family: var(--roboto);
+    font-weight: 400;
+    line-height: 101.38%;
+    color: #000000;
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.fotter1dflextext {
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.footer2 {
+    background-color: #000000;
+    width: 100%;
+}
+
+.footer22 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.iconfotter2 {
+    width: 110px;
+}
+
+
+.contact-box {
+    margin-right: 15%;
+}
+
+.footer2socialicons {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 157px;
+}
+
+.footer2socialicons img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25px;
+}
+
+.callmesscontainer {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.callmesscontainer img {
+    width: 25px;
+}
+
+.callmesstext {
+    color: white;
+    margin-left: 15px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+
+.copy {
+    width: 90%;
+    margin: auto;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
 /* section4 end */
 
 @media only screen and (min-width:1600px){
