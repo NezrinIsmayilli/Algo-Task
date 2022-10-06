@@ -1,5 +1,100 @@
-/* section1 start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,
+* {
+    margin: 0;
+    padding: 0%;
+}
+body {
+    overflow-x: hidden;
+}
+:root {
+    --font1: "Roboto", sans-serif;
+    --font2: "Roboto Slab", serif;
+}
 
+/* section1 start */
+.header {
+    width: 90%;
+    margin: auto;
+}
+.photo1 {
+    margin-top: 17px;
+}
+.global {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+}
+.course1,
+.clock,
+.date {
+    display: flex;
+}
+.global p {
+    margin-left: 10px;
+    font-family: var(--font1);
+    font-size: 20px;
+    color: #000000;
+}
+.movie {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-text {
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 81px;
+    color: #000000;
+    width: 628px;
+}
+
+.movie-text p {
+    font-family: var(--font1);
+    font-size: 20px;
+    color: #000000;
+    width: 414px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.movie-text {
+    margin-top: 30px;
+}
+
+.movie img {
+    margin-right: 150px;
+}
+
+.blue-area {
+    border-radius: 10px;
+    margin: auto;
+    padding: 19px 26px;
+    background-color: #1e4681;
+    color: white;
+    width: 483px;
+    margin-top: 87px;
+}
+
+.blue-area-text {
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 32.5px;
+}
+
+.blue-area-name {
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: right;
+    line-height: 26p;
+}
 /* section1 end */
 
 
