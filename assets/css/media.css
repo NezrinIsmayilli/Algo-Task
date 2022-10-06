@@ -66,6 +66,99 @@
         text-align: right;
         line-height: 16px;
     }
+    h2 {
+        font-family: var(--font2);
+        font-weight: 700;
+        font-size: 38px;
+        color: #000000;
+        margin-top: 100px;
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-text {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        width: 383px;
+    }
+    .main-img {
+        margin-right: 80px;
+        width: 250px;
+    }
+    .camera-and-course {
+        margin-top: 60px;
+    }
+    .ellipse-2 {
+        position: relative;
+        left: 0px;
+        bottom: -5px;
+        z-index: -1;
+    }
+    .course-1,
+    .course-2 {
+        margin-right: 60px;
+    }
+    .course-1 .text,
+    .course-2 .text,
+    .course-3 .text {
+        width: 140px;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .learn h1 {
+        margin-top: 60px;
+    }
+    .courses .title {
+        font-size: 20px;
+    }
+    .courses .text {
+        font-size: 15px;
+    }
+    .format h1 {
+        font-size: 30px;
+    }
+    .tasks {
+        margin-top: 20px;
+        display: flex;
+    }
+    .vebinar,
+    .access {
+        margin-right: 60px;
+    }
+    .title {
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .tasks .title {
+        color: #1E4681;
+    }
+    .text {
+        font-size: 17px;
+        font-family: 'Roboto';
+    }
+    .text-1 {
+        width: 250px;
+    }
+    .text-2 {
+        width: 290px;
+    }
+    .text-3 {
+        width: 260px;
+    }
+    ul {
+        width: 675px;
+    }
+    ul li {
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
 }
 
 @media only screen and (min-width: 300px) and (max-width:991px) {
@@ -147,5 +240,118 @@
         color: #ffffff;
         text-align: right;
         line-height: 26p;
+    }
+    h2 {
+        font-family: var(--font2);
+        font-weight: 700;
+        font-size: 35px;
+        color: #000000;
+        margin-top: 90px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .main-text {
+        font-family: var(--font1);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        width: 90%;
+    }
+    .main-img {
+        width: 200px;
+        margin-top: 60px;
+        display: flex;
+        align-self: center;
+        margin-left: 50px;
+    }
+    .camera-and-course {
+        margin-top: 40px;
+    }
+    .camera-2,
+    .ellipse-2 {
+        display: none;
+    }
+    .courses {
+        width: 100%;
+        font-family: 'Roboto';
+        flex-wrap: wrap;
+    }
+    .tasks {
+        display: flex;
+        flex-direction: column;
+    }
+    .course-1,
+    .course-2,
+    .course-3 {
+        width: 28%;
+        margin-top: 30px;
+    }
+    .course-1,
+    .course-2 {
+        margin-right: 60px;
+    }
+    .course-1 .text,
+    .course-2 .text,
+    .course-3 .text {
+        width: 140px;
+        font-size: 14px;
+    }
+    .courses{
+        margin-left: 5px;
+    }
+    .courses .title{
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .learn h1 {
+        margin-top: 100px;
+    }
+    .format h1{
+        font-size: 30px;
+    }
+    .vebinar,
+    .access {
+        margin-bottom: 50px;
+    }
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Roboto Slab';
+    }
+    .tasks .title {
+        color: #1E4681;
+    }
+    .text {
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+    .format .text{
+        font-size: 16px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .text-1 {
+        width: 300px;
+    }
+    .text-2 {
+        width: 295px;
+    }
+    .text-3 {
+        width: 270px;
+    }
+    ul {
+        width: 90%;
+        margin-left: 15px !important;
+    }
+    ul li {
+        font-size: 14px;
+        font-family: 'Roboto';
     }
 }
